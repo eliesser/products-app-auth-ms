@@ -4,7 +4,7 @@ steps:
       [
         'build',
         '-t',
-        'europe-southwest1-docker.pkg.dev/nestjs-microservices-421221/image-registry/auth-ms-prod',
+        'europe-southwest1-docker.pkg.dev/nestjs-microservices-421221/image-registry/auth-ms',
         '-f',
         'dockerfile.prod',
         '--platform=linux/amd64',
@@ -14,5 +14,5 @@ steps:
     args:
       [
         'push',
-        'europe-southwest1-docker.pkg.dev/nestjs-microservices-421221/image-registry/auth-ms-prod',
+        'europe-southwest1-docker.pkg.dev/nestjs-microservices-421221/image-registry/auth-ms',
       ]
